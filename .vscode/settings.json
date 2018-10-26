@@ -17,10 +17,10 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "prettier.printWidth": 90, // Following setting requires Prettier Extension
-  // "prettier.semi": false, // StandardJS
+  "prettier.semi": false, // StandardJS
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  // "typescriptHero.imports.insertSemicolons": false,// StandardJS
+  "typescriptHero.imports.insertSemicolons": false, // StandardJS
   // Following setting requires TypeScriptHero Extension
   "typescriptHero.imports.multiLineWrapThreshold": 90,
   "editor.codeActionsOnSave": {
