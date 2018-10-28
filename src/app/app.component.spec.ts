@@ -1,4 +1,3 @@
-import { HttpClientTestingModule } from '@angular/common/http/testing'
 import { async, TestBed } from '@angular/core/testing'
 import { RouterTestingModule } from '@angular/router/testing'
 import { AppComponent } from './app.component'
@@ -9,7 +8,7 @@ import { WeatherServiceFake } from './weather/weather.service.fake'
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule, HttpClientTestingModule],
+      imports: [RouterTestingModule],
       declarations: [AppComponent, CurrentWeatherComponent],
       providers: [{ provide: WeatherService, useClass: WeatherServiceFake }],
     }).compileComponents()
